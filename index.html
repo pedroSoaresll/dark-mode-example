@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark mode example</title>
+    <style>
+      html {
+        --background-color: #e2e2e2;
+        --text-color: #333;
+      }
+      @media (prefers-color-scheme: dark) {
+        html {
+          --background-color: #333;
+          --text-color: #e2e2e2;
+        }
+      }
+
+      body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dark mode example</h1>
+    <p>
+      Irure dolor sunt nostrud fugiat adipisicing ad laboris dolore culpa
+      nostrud esse. Irure culpa consectetur Lorem in velit officia fugiat non
+      consequat tempor esse. Dolor officia officia enim nulla. Est ipsum et
+      excepteur ad. In eiusmod qui nulla culpa ullamco id aliqua dolore minim.
+      Eu id eiusmod qui sint velit.
+    </p>
+  </body>
+</html>
